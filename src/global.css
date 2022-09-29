@@ -10,6 +10,20 @@ body {
 	font-family: "Ubuntu", sans-serif;
 	background-color: var(--color-bg-1);
 }
+p {
+	color: var(--color-text);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--color-black);
+}
+img {
+	max-width: 100%;
+}
 
 /* VARIABLES */
 :root {

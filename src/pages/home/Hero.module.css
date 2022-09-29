@@ -1,0 +1,26 @@
+.heroHeading {
+	font-size: 60px;
+	font-weight: bold;
+}
+.TradeInfo {
+	opacity: 0.7;
+	margin: 30px 0;
+}
+.TradeInfo span {
+	opacity: 0.7;
+	margin: 30px 0;
+}
+.commission {
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 546px) {
+	.heroHeading {
+		font-size: 35px;
+	}
+}
+@media screen and (max-width: 992px) {
+	.wrapper > div {
+		border: none !important;
+	}
+}
