@@ -1,7 +1,10 @@
+import MainButton from "./components/button/MainButton";
+import Navbar from "./layout/navbar/Navbar";
+
 function App() {
 	return (
 		<>
-			<h1>Join the best</h1>
+			<Navbar />
 		</>
 	);
 }

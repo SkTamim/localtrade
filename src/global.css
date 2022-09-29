@@ -8,14 +8,29 @@
 
 body {
 	font-family: "Ubuntu", sans-serif;
+	background-color: var(--color-bg-1);
 }
 
 /* VARIABLES */
 :root {
-	--color-primary: #2aaf59;
-	--color-primary-dark: #58a771;
+	--color-primary: #3fd273;
+	--color-primary-dark: #5ec07f;
 	--color-black: #080909;
-	--color-bg-1: #a2b1a7;
-	--color-bg-2: #e6e7e6;
+	--color-bg-1: #d6e3db;
+	--color-bg-2: #f4f8f4;
 	--color-text: #4f6056;
+}
+
+/* STYLE OVERRIDE */
+.border-color-dark {
+	border-color: #c0cbc5 !important;
+	border-width: 1.5px !important;
+}
+
+/* UTILITIES */
+.bg-one {
+	background-color: var(--color-bg-1);
+}
+.text-color {
+	color: var(--color-text);
 }

@@ -1,0 +1,23 @@
+.mainBtn,
+.mainBtnLg {
+	text-transform: uppercase;
+	padding: 6px 20px;
+	border: none;
+	border-radius: 4px;
+	color: var(--color-text);
+	background-color: var(--color-primary);
+	margin: 5px;
+	transition: 0.3s;
+	text-decoration: none;
+	display: block;
+	width: max-content;
+}
+.mainBtn:hover,
+.mainBtnLg:hover {
+	background-color: var(--color-primary-dark);
+	color: var(--color-text);
+}
+.mainBtnLg {
+	padding: 12px 40px;
+	font-weight: 500;
+}

@@ -1,0 +1,23 @@
+.mainNav .nav-link {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+.mainNav .nav-link:hover {
+	color: var(--color-black);
+}
+
+@media screen and (max-width: 991px) {
+	.lastMenu .nav-item {
+		border: none !important;
+	}
+	.lastMenu {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.mainNav .nav-link {
+		padding-left: 5px !important;
+		padding-right: 5px !important;
+	}
+}
