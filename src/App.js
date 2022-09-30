@@ -1,5 +1,5 @@
-import MainButton from "./components/button/MainButton";
 import Navbar from "./layout/navbar/Navbar";
+import CoinListTable from "./pages/home/CoinListTable";
 import Hero from "./pages/home/Hero";
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
 		<>
 			<Navbar />
 			<Hero />
+			<CoinListTable />
 		</>
 	);
 }

@@ -1,0 +1,84 @@
+.coinListSection {
+	background-color: var(--color-bg-2);
+}
+.coinTable {
+	width: 100%;
+}
+.coinTable td {
+	width: max-content;
+}
+.coinTable tbody tr {
+	height: 65px;
+}
+
+.coinTable thead p {
+	font-size: 18px;
+}
+
+.marketRow {
+	display: flex;
+	align-items: center;
+	min-width: max-content;
+	margin-right: 20px;
+}
+.priceRow {
+	min-width: max-content;
+	margin-right: 15px;
+}
+.changeRow {
+	min-width: max-content;
+	margin-right: 15px;
+}
+.dynamicRow {
+	width: 180px;
+}
+
+.coinImageWrap {
+	background-color: #fff;
+	width: max-content;
+	padding: 3px;
+	border-radius: 5px;
+	margin-right: 10px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.marketRow img {
+	height: 30px;
+}
+
+.marketRow span {
+	color: var(--color-text);
+}
+.marketRow h5 {
+	margin: 0;
+}
+.priceRow h5 {
+	margin: 0;
+}
+
+@media screen and (max-width: 766px) {
+	.coinTable thead p {
+		font-size: 14px;
+	}
+	.marketRow h5 {
+		font-size: 16px;
+	}
+	.priceRow h5 {
+		font-size: 16px;
+	}
+	.marketRow img {
+		height: 20px;
+	}
+	.coinImageWrap {
+		width: 35px;
+		height: 35px;
+		padding: 0;
+	}
+	.changeRow div {
+		font-size: 14px;
+	}
+}

@@ -13,6 +13,9 @@
 .commission {
 	margin-bottom: 10px;
 }
+.mainContainer {
+	background-color: var(--color-bg-1);
+}
 
 @media screen and (max-width: 546px) {
 	.heroHeading {
