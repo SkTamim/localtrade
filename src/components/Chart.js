@@ -1,13 +1,5 @@
 import React from "react";
-import {
-	ResponsiveContainer,
-	AreaChart,
-	XAxis,
-	YAxis,
-	Area,
-	Tooltip,
-	CartesianGrid,
-} from "recharts";
+import { ResponsiveContainer, AreaChart, Area, Tooltip } from "recharts";
 
 const Chart = (props) => {
 	let data = [
