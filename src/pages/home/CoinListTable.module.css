@@ -81,4 +81,7 @@
 	.changeRow div {
 		font-size: 14px;
 	}
+	.coinListSection > div {
+		border: none !important;
+	}
 }
